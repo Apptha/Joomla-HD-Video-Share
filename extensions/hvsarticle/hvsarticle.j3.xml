@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.5//DTD plugin 1.0//EN" "http://dev.joomla.org/xml/1.5/plugin-install.dtd">
+<extension version="1.5" type="plugin" group="content" method="upgrade">
+	<name>HVS Article Plugin</name>
+	<creationDate>March 2014</creationDate>
+	<author>Apptha</author>
+	<authorEmail>assist@apptha.com</authorEmail>
+	<authorUrl>http://www.apptha.com</authorUrl>
+	<copyright>Copyright (C) 2015 Powered by Apptha</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<version>3.8</version>
+	<description>
+<![CDATA[<div style="text-align:left !important;"> Steps to Configure Plugin:<br />1. You can use this plugin with Joomla Article and K2 Component...<br />2. This plugin includes the following Attributes<br />* videoid<br />* height<br />* width<br />* autoplay<br />* categoryid<br />* playlistautoplay<br />* type<br />3. Below are the sample formats for plugin shortcode<br />1.[hdvs videoid=1 categoryid=1 width=700 height=300 autoplay=true playlistautoplay=true]<br />2.[hdvs videoid=2 width=700 height=300]<br />3.[hdvs type=pop] or [hdvs type=pop width=700 height=300] or [hdvs type=pop width=700 height=300 autoplay=true playlistautoplay=true]<br />4.[hdvs type=rec] or [hdvs type=rec width=700 height=300] or [hdvs type=rec width=700 height=300 autoplay=true playlistautoplay=true]<br />5.[hdvs type=fea] or [hdvs type=fea width=700 height=300] 0r [hdvs type=fea width=700 height=300 autoplay=true playlistautoplay=true]<br />Different combinations can be used as mentioned above<br /></div>]]>
+	</description>
+
+	<scriptfile>install.hvsarticle.php</scriptfile>
+	<files>
+		<filename plugin="hvsarticle">hvsarticle.php</filename>
+		<filename plugin="hvsarticle">playlist.php</filename>
+		<filename>readme.txt</filename>
+	</files>
+	<languages>
+		<language tag="en-GB">en-GB.plg_content_hvsarticle.sys.ini</language>
+		<language tag="en-GB">en-GB.plg_content_hvsarticle.ini</language>
+	</languages>
+</extension>

@@ -1,0 +1,550 @@
+/**
+ * RTL css for HD Video Share
+ *
+ * This file is for RTL support of HD Video Share
+ *
+ * @category   Apptha
+ * @package    Com_contushdvideoshare
+ * @version    3.8
+ * @author     Apptha Team <developers@contus.in>
+ * @copyright  Copyright (C) 2015 Apptha. All rights reserved.
+ * @license    GNU General Public License http://www.gnu.org/copyleft/gpl.html
+ */
+
+ .floatleft {
+	float: right
+}
+
+.floatright {
+	float: left
+}
+
+.button {
+	overflow: visible
+}
+
+.clearfix {
+	clear: both
+}
+
+.clearfix:after {
+	clear: both;
+	display: block;
+	content: " ";
+	visibility: hidden
+}
+
+#module_videos #catagory-view a {
+	display: inline
+}
+
+#module_videos .video-info {
+	text-align: right;
+	display: block
+}
+
+#module_videos #nopos1#module_videos #nopos1 {
+	background: url(../images/stars831.png) no-repeat;
+	width: 60px;
+	height: 12px;
+	position: relative;
+	list-style: none;
+	padding: 0;
+	background-position: 0 0;
+	margin: 3px 0
+}
+
+#module_videos #onepos1 {
+	background: url(../images/stars831.png) no-repeat;
+	width: 60px;
+	height: 12px;
+	position: relative;
+	list-style: none;
+	padding: 0;
+	background-position: 0 -12px;
+	margin: 3px 0
+}
+
+#module_videos #twopos1 {
+	background: url(../images/stars831.png) no-repeat;
+	width: 60px;
+	height: 12px;
+	position: relative;
+	list-style: none;
+	padding: 0;
+	background-position: 0 -24px;
+	margin: 3px 0
+}
+
+#module_videos #threepos1 {
+	background: url(../images/stars831.png) no-repeat;
+	width: 60px;
+	height: 12px;
+	position: relative;
+	list-style: none;
+	padding: 0;
+	background-position: 0 -36px;
+	margin: 3px 0
+}
+
+#module_videos #fourpos1 {
+	background: url(../images/stars831.png) no-repeat;
+	width: 60px;
+	height: 12px;
+	position: relative;
+	list-style: none;
+	padding: 0;
+	background-position: 0 -48px;
+	margin: 3px 0
+}
+
+#module_videos #fivepos1 {
+	background: url(../images/stars831.png) no-repeat;
+	width: 60px;
+	height: 12px;
+	position: relative;
+	list-style: none;
+	padding: 0;
+	background-position: 0 -60px;
+	margin: 3px 0
+}
+
+#module_videos {
+	padding-top: 10px;
+	overflow: hidden
+}
+
+#module_videos .video-grid-container ul .video-item {
+	background: 0 0;
+	list-style-type: none;
+	float: left;
+	width: auto;
+	line-height: normal;
+	padding: 10px 10px 10px 0
+}
+
+#module_videos .video-grid-container ul .video-item:last-child {
+	padding-right: 0
+}
+
+#module_videos .video-grid-container .ulvideo_thumb {
+	margin: 0;
+	padding: 0
+}
+
+#module_videos .video-grid-container ul li .show-title-container {
+	clear: both;
+	overflow: hidden;
+	margin-top: 0;
+	font-size: 12px;
+	height: 34px
+}
+
+#module_videos .video-grid-container .home-link {
+	border-bottom: 1px solid #ccc
+}
+
+#module_videos .video-grid-container .video-item-details {
+	width: 115px
+}
+
+#module_videos .video-grid-container ul li .yt-uix-hovercard-target {
+	margin-left: 8px;
+	width: 115px;
+	height: 65px
+}
+
+#module_videos .video-grid-container ul .video-item .mod_video_item {
+	float: right
+}
+
+.featured_vidimg {
+	display: block;
+	background: none !important
+}
+
+.featured_vidimg .yt-uix-hovercard-target {
+	outline: 0;
+	border: 1px solid #ccc;
+	padding: 1px
+}
+
+.featured_vidimg .yt-uix-hovercard-target:hover {
+	outline: 0;
+	border: 1px solid #3784CC;
+	padding: 1px;
+	background: 0 0
+}
+
+ul.menu {
+	padding: 0
+}
+
+.module_menu {
+	margin: 0 auto;
+	display: block
+}
+
+.module_menu #hsearch {
+	margin-top: 10px;
+	overflow: hidden
+}
+
+.morevideos {
+	float: left;
+	text-align: right;
+	display: block
+}
+
+.hd_norecords_found {
+	padding: 10px;
+	font-weight: 700;
+	text-align: center
+}
+
+.hdvideo_category ul .hd-item-sub,.item27 ul .hd-item-sub {
+	margin-right: 15px
+}
+
+.show-title-container {
+	clear: both;
+	overflow: hidden;
+	margin-top: 3px
+}
+
+.show-title-container a {
+	font-weight: 700;
+	font-size: 93%;
+	display: block;
+	text-align: right;
+	text-decoration: none
+}
+
+#searchtxtbox {
+	float: right;
+	width: 62%
+}
+
+#search_btn {
+	float: right;
+	margin: 0 5px 0 0
+}
+
+#rightmodule .show-title-container {
+	width: auto !important
+}
+
+.htmltooltip {
+	position: absolute;
+	z-index: 9999;
+	left: -1000px;
+	top: -1000px;
+	background: #fff !important;
+	padding: 8px 10px;
+	border: 1px solid #999 !important;
+	line-height: 1.3em;
+	width: 200px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-box-shadow: 0 0 5px #888;
+	-webkit-box-shadow: 0 0 5px #888
+}
+
+.htmltooltip .tooltip_views_right {
+	float: right
+}
+
+.htmltooltip .tooltip_discrip {
+	color: #000;
+	font-size: 12px;
+	text-align: right;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 5px;
+	word-wrap: break-word
+}
+
+.htmltooltip .tooltip_views_right .view_txt {
+	color: #888;
+	font-size: 12px
+}
+
+.htmltooltip .tooltip_views_right .view_count {
+	color: #333;
+	font-size: 12px
+}
+
+.htmltooltip .tooltip_category_left {
+	float: right
+}
+
+.htmltooltip .tooltip_category_left .title_category {
+	color: #888;
+	font-size: 12px
+}
+
+.htmltooltip .tooltip_category_left .show_category {
+	color: #333;
+	font-size: 12px
+}
+
+.htmltooltip .chat-bubble-arrow-border {
+	border-color: transparent transparent #999;
+	border-style: solid;
+	border-width: 10px;
+	height: 0;
+	width: 0;
+	position: absolute;
+	top: -21px;
+	left: 30px
+}
+
+.htmltooltip .chat-bubble-arrow {
+	border-color: transparent transparent #fff;
+	border-style: solid;
+	border-width: 10px;
+	height: 0;
+	width: 0;
+	position: absolute;
+	top: -18px;
+	left: 30px
+}
+
+.htmltooltip .chat-bubble-arrow-border1 {
+	border-color: #999 transparent transparent;
+	border-style: solid;
+	border-width: 10px;
+	height: 0;
+	width: 0;
+	position: absolute;
+	bottom: -21px;
+	left: 30px
+}
+
+.htmltooltip .chat-bubble-arrow1 {
+	border-color: #fff transparent transparent;
+	border-style: solid;
+	border-width: 10px;
+	height: 0;
+	width: 0;
+	position: absolute;
+	bottom: -18px;
+	left: 30px
+}
+
+div#share_like .youtube-addto-link-player {
+	margin-top: 5px;
+	position: relative;
+	padding-right: 17px;
+	float: left;
+	font-size: 15px;
+}
+
+.addtocontentbox {
+	clear: both;
+	float: left;
+	background: #FFF !important;
+	border: 1px solid #d3d3d3;
+	outline: 0;
+	overflow: visible;
+	width: 200px;
+	padding: 12px;
+	position: absolute;
+	margin-top: 20px;
+	z-index: 999;
+}
+
+.addtocontentbox>p {
+	text-align: center;
+	font-size: 20px;
+	border-bottom: 1px solid #E1E1E1;
+}
+
+#addtocontentbox-play {
+	clear: both;
+	float: left;
+	background: #FFF;
+	border: 1px solid #d3d3d3;
+	outline: 0;
+	overflow: visible;
+	width: 210px;
+	padding: 10px;
+}
+
+#addtocontent #playlistname_input {
+	width: 150px;
+	float: left;
+	margin-bottom: 8px;
+}
+
+#playlistname_loading,div#playlistname_loading-play {
+	float: left;
+	height: 30px;
+}
+
+#addtocontent {
+	position: absolute;
+	z-index: 9999;
+	left: 40.3%;
+	overflow: hidden;
+	margin: 18px 2px;
+}
+
+#clsdetail a,#clsdetail a:hover {
+	outline-style: none;
+	text-decoration: none;
+	text-decoration: none;
+}
+
+#playlists li {
+	min-height: 30px;
+	display: block;
+	width: 100%;
+	float: left;
+}
+
+#playlists li span {
+	display: inline-block;
+	width: 124px;
+	word-break: break-word;
+}
+
+.play_textarea {
+	width: 190px;
+}
+
+#button-save {
+	border-color: #167ac6;
+	background: #167ac6;
+	color: #fff;
+	margin-left: 80px;
+}
+
+#checkbox-video1 li {
+	display: block;
+	float: left;
+}
+
+.youtube-addto-link-player {
+	text-decoration: none;
+	color: inherit;
+}
+
+#playlistadd {
+	text-decoration: none;
+	color: inherit;
+}
+
+#add_playlist_button {
+	float: left !important;
+	text-decoration: none;
+	color: inherit;
+	font-size: 15px;
+	position: absolute;
+}
+
+#save-button {
+	border-color: #167ac6;
+	background: #167ac6;
+	color: #fff;
+	margin-left: 55px;
+}
+
+.playliststatus {
+	margin: 0px 0 10px 0;
+	color: #FFFFFF;
+	text-align: center;
+	padding: 5px;
+	position: absolute;
+	margin-top: 15px;
+	margin-top: 35px;
+}
+
+.play_textarea {
+	width: 150px;
+	float: left;
+	margin-bottom: 8px;
+}
+
+#button-save-home {
+	border-color: #167ac6;
+	background: #167ac6;
+	color: #fff;
+	margin-left: 50px;
+}
+
+table.myplaylist-table th {
+	padding: 10px 35px 10px 40px;
+}
+
+tbody {
+	text-align: center;
+}
+
+.create_playlist {
+	margin-top: 14px;
+	text-align: center;
+	border-top: 1px solid #E1E1E1;
+}
+
+.create_playlist>a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.addplaylist {
+	margin-top: 9px;
+	text-align: center;
+}
+
+.play_textarea {
+	margin-left: 20px;
+}
+
+.restrict>p {
+	border-top: 1px solid #E1E1E1;
+	padding-top: 6px;
+}
+
+.playlists_ul>li {
+	line-height: 25px;
+}
+
+.playlistadd:hover {
+	background-color: #EEE;
+	padding-left: 43px;
+	padding-right: 43px;
+	text-decoration: none;
+	color: inherit;
+}
+
+.playlistadd {
+	border: 0;
+	background-color: #FFF;
+	margin-top: 10px;
+}
+
+.playlistaddform-hide-btn {
+	border: 0;
+	background-color: #126DB3;
+	border-radius: 2px;
+	color: #FFF;
+	height: 28px;
+	width: 70px;
+}
+
+.playlistaddform-hide-btn:disabled {
+	background-color: #8ABCE2;
+}
+
+.playlistlabel {
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 21px;
+	width: 87%;
+	overflow: hidden;
+	white-space: nowrap;
+	word-wrap: normal;
+	-o-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+	padding: 0 5px 0 0;
+}

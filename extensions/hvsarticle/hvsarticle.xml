@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.5//DTD plugin 1.0//EN" "http://dev.joomla.org/xml/3.0/plugin-install.dtd">
+<install version="3.0" type="plugin" group="content" method="upgrade">
+	<name>HVS Article Plugin</name>
+	<creationDate>March 2014</creationDate>
+	<author>Apptha</author>
+	<authorEmail>assist@apptha.com</authorEmail>
+	<authorUrl>http://www.apptha.com</authorUrl>
+	<copyright>Copyright (C) 2015 Powered by Apptha</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<version>3.8</version>
+	<description>PLG_CONTENT_HVSARTICLE_XML_DESCRIPTION</description>
+
+	<scriptfile>install.hvsarticle.php</scriptfile>
+	<files>
+		<filename plugin="hvsarticle">hvsarticle.php</filename>
+		<filename plugin="hvsarticle">playlist.php</filename>
+		<filename>readme.txt</filename>
+	</files>
+	<languages>
+		<language tag="en-GB">en-GB.plg_content_hvsarticle.sys.ini</language>
+		<language tag="en-GB">en-GB.plg_content_hvsarticle.ini</language>
+	</languages>
+</install>

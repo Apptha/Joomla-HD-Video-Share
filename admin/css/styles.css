@@ -1,0 +1,251 @@
+/**
+ * @name       Joomla HD Video Share
+ * @SVN        3.7
+ * @package    Com_Contushdvideoshare
+ * @author     Apptha <assist@apptha.com>
+ * @copyright  Copyright (C) 2014 Powered by Apptha
+ * @license    http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
+ * @since      Joomla 1.5
+ * @Creation Date   March 2010
+ * @Modified Date   September 2015
+ * */
+
+.icon-48-settings {background: url('../assets/player-settings-icon.png') no-repeat left;}
+.icon-48-sitesettings {background: url('../assets/site-settings-icon.png') no-repeat left;}
+.icon-48-category {background: url('../assets/category-icon.png') no-repeat left;}
+.icon-48-ads {background: url('../assets/ads-icon.png') no-repeat left;}
+.icon-48-googlead {background: url('../assets/google- adsense-icon.png') no-repeat left;}
+.icon-48-adminvideos {background: url('../assets/admin-video.png') no-repeat left;}
+.icon-48-memberdetails {background: url('../assets/member-details.png') no-repeat left;}
+.icon-48-membervideos {background: url('../assets/member-videos.png') no-repeat left;}
+div.header {padding-left: 65px !important;}
+#info {display: block;border: 1px solid #333;background-color: #efefef;}
+#test-list {list-style: none;}
+#test-list li {display: block;background-color: #efefef;}
+img.handle {margin-right:0px;cursor: move;}
+.header_title{text-align: center;background: #f0f0f0;color: #666;border-left: 1px solid #fff;}
+table.videolist {width: 100%;border-spacing: 1px;background-color: #e7e7e7;color: #666;}
+table.videolist thead th {
+	text-align: center;
+	background: #f0f0f0;
+	color: #666;
+	border-bottom: 1px solid #999;
+	border-left: 1px solid #fff;
+}
+
+table.videolist thead a:hover { text-decoration: none; }
+
+table.videolist thead th img { vertical-align: middle; }
+
+table.videolist tbody th { font-weight: bold; }
+
+table.videolist tbody tr			{ background-color: #fff;  text-align: left; }
+table.videolist tbody tr.row1 	{ background: #f9f9f9; border-top: 1px solid #fff; }
+
+table.videolist tbody tr.row0:hover td,
+table.videolist tbody tr.row1:hover td  { background-color: #ffd ; }
+
+table.videolist tbody tr td 	   { background: #fff;  }
+table.videolist tbody tr.row1 td { background: #f9f9f9; border-top: 1px solid #FFF; }
+
+table.videolist tfoot tr { text-align: center;  color: #333; }
+table.videolist tfoot td,
+table.videolist tfoot th { background-color: #f3f3f3; border-top: 1px solid #999; text-align: center; }
+
+table.videolist td.order 		{ text-align: center; white-space: nowrap; }
+table.videolist td.order span { float: left; display: block; width: 20px; text-align: center; }
+
+table.videolist .pagination { display:table; padding:0;  margin:0 auto;	 }
+
+.pagination div.limit {
+	float: left;
+	height: 22px;
+	line-height: 22px;
+	margin: 0 10px;
+}
+
+#videodiv div
+{
+ border-right:#E7E7E7 solid 1px; 
+ border-bottom:#E7E7E7 solid 1px;height:43px;;float:left;
+}
+
+/*
+control panel css start
+*/
+.contus-icon {
+	margin-right: 15px;
+	float: left;
+	margin-bottom: 15px;
+	border: 1px solid #333;
+	padding: 10px;
+}
+
+.contus-icon:hover {
+	background: #e5e5e5
+}
+
+.clear {
+	clear: both;
+}
+
+.text {
+	color: #333;
+	margin: 10px;
+	line-height: 17px;
+	font-size: 12px;
+}
+
+.text a {
+	padding: 7px;
+	font-size: 12px;
+	font-weight: 700;
+	border: 1px solid #ccc;
+	text-transform: uppercase
+}
+
+.text a:hover {
+	padding: 7px;
+	font-size: 12px;
+	font-weight: 700;
+	color: #000;
+	background: #FAFAFA
+}
+
+
+html,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td
+	{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0
+}
+
+ol,ul {
+	list-style: none
+}
+
+.floatleft {
+	float: left
+}
+
+.floatright {
+	float: right
+}
+
+.clear {
+	clear: both;
+	height: 0px;
+	font-size: 0px
+}
+
+.clearfix:after {
+	clear: both;
+	display: block;
+	content: "";
+	height: 0px;
+	visibility: hidden
+}
+
+.clearfix {
+	display: inline-block
+}
+
+* html .clearfix {
+	height: 1%
+}
+
+li.clearfix {
+	display: list-item
+}
+
+div.cpanel-left {
+	float: left;
+	width: 40% !important;
+}
+
+.banner {
+	padding-bottom: 10px;
+}
+
+#cpanel div.icon {
+	background: white;
+	float: left;
+	margin-bottom: 15px;
+	margin-right: 15px;
+	text-align: center;
+}
+
+#cpanel div.icon a {
+	border: 1px solid #EAEAEA;
+	color: #565656;
+	display: block;
+	float: left;
+	height: 97px;
+	text-decoration: none;
+	vertical-align: middle;
+	width: 108px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+#cpanel div.icon a:hover {
+	background: #FBFBFB;
+	border-bottom: 1px solid #CCC;
+	border-left: 1px solid #EEE;
+	border-right: 1px solid #CCC;
+	border-top: 1px solid #EEE;
+}
+
+#cpanel img {
+	margin: 0px auto;
+	padding: 10px 0px;
+}
+
+#cpanel span {
+	display: block;
+	text-align: center;
+	font-family: 'arial';
+	color: #8D8371;
+	font-size: 12px;
+}
+
+.heading {
+	margin-bottom: 10px;
+	font-family: arial;
+	line-height: 24px;
+	font-size: 24px;
+	font-weight: bold;
+	color: #146295;
+	padding: 0;
+}
+
+.pane-sliders {
+	margin: 0px;
+	padding: 0px;
+}
+/*
+control panel css end
+*/
+.hasTip{width: 100%;display: block;cursor: default;}
+
+#myfile, #myfile1, #myfile2, #myfile3, #myfile4{
+    float: left ;
+}
+.pagination ul{display:block !important;}
+
+.subhead-fixed{position: static !important;}
+.videoshare_closeimage{width:15px;}
+
+#adminForm .admintable .button2-left{margin: 10px 0 0;}
+.google_analytics{
+    float: right;
+    width: 76%;
+}
+.google_analytics span{display: block;float: left;width: 205px;font-weight: bold;}
+.google_analytics input{
+    float: left;
+}
+#commentlist td{max-width:0 !important;}
+#commentlist td p{word-break: break-word; margin-right: 8px;}

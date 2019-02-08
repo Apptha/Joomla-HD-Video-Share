@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5" client="site" method="upgrade">
+	<name>Video Share Player</name>
+	<version>3.8</version>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<copyright>Copyright (C) 2015 Powered by Apptha</copyright>
+	<description>Video Share Player Module for Contus HD Video Share</description>
+	<creationDate>June 2014</creationDate>
+	<author>Apptha</author>
+	<authorEmail>support@apptha.com</authorEmail>
+	<authorUrl>http://www.apptha.com</authorUrl>
+	<scriptfile>script.php</scriptfile>
+	<files >
+		<filename module='mod_videoshare'>mod_videoshare.php</filename>
+		<filename>helper.php</filename>
+		<filename>index.html</filename>
+		<filename>params.ini</filename>
+		<folder>tmpl</folder>
+		<folder>language</folder>
+	</files>
+	<languages>
+		<language tag="en-GB">language/en-GB.mod_videoshare.ini</language>
+	</languages>
+	<params>
+		<param name="moduleclass_sfx" type="text" default="/modules/en-GB.mod_videoshare.ini/fields" label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX" />
+		<param name="player_width" type="text" default="300" label="Player Width" description="Enter the Player width (Recommended : less than 230px)" />
+		<param name="player_height" type="text" default="306" label="Player Height" description="Enter the Player height" />
+		<param name="volume" type="text" default="34" label="Volume" description="Enter the Volume" />
+        <param name="showPlaylist" type="radio" default="0" label="Show Playlist" description="i)Select 'Yes' to Enable the Playlist ii)Select 'No' to disable the Playlist">
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+        </param>
+        <param name="playlistOpen" type="radio" default="0" label="Playlist Always Open" description="i)Select 'Yes' to Enable the Playlist ii)Select 'No' to disable the Playlist">
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+        </param>
+        <param name="skinAutohide" type="radio" default="0" label="Skin Auto Hide" description="i)Select 'Yes' to Enable the Skin ii)Select 'No' to disable the Skin">
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+        </param>
+        <param name="autoplay" type="radio" default="1" label="Autoplay" description="i)Select 'Yes' to Enable the Autoplay ii)Select 'No' to disable the Autoplay">
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+        </param>
+        <param name="timer" type="radio" default="1" label="Timer" description="i)Select 'Yes' to Enable the Timer ii)Select 'No' to disable the Timer">
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+        </param>
+        <param name="zoom" type="radio" default="0" label="Zoom" description="i)Select 'Yes' to Enable the Zoom ii)Select 'No' to disable the Zoom">
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+        </param>
+        <param name="share" type="radio" default="0" label="Share Url" description="i)Select 'Yes' to Enable the Share Url ii)Select 'No' to disable the Share Url">
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+        </param>
+        <param name="fullscreen" type="radio" default="0" label="Fullscreen" description="i)Select 'Yes' to Enable the Fullscreen ii)Select 'No' to disable the Fullscreen">
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+        </param>
+	</params>
+	<config>
+		<fields name="params">
+			<fieldset name="basic" addfieldpath="/modules/mod_videoshare/fields">
+				<field name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX" />
+				<field name="player_width" type="text" default="300" label="Player Width" description="Enter the Player width (Recommended : less than 230px)" />
+				<field name="player_height" type="text" default="306" label="Player Height" description="Enter the Player height" />
+				<field name="volume" type="text" default="34" label="Volume" description="Enter the Volume" />
+                <field name="showPlaylist" type="radio" default="0" label="Show Playlist" description="i)Select 'Yes' to Enable the Playlist ii)Select 'No' to disable the Playlist">
+                    <option value="1">Yes</option>
+                    <option value="0">No</option>
+                </field>
+                <field name="playlistOpen" type="radio" default="0" label="Playlist Always Open" description="i)Select 'Yes' to Enable the Playlist ii)Select 'No' to disable the Playlist">
+                    <option value="1">Yes</option>
+                    <option value="0">No</option>
+                </field>
+                <field name="skinAutohide" type="radio" default="0" label="Skin Auto Hide" description="i)Select 'Yes' to Enable the Skin ii)Select 'No' to disable the Skin">
+                    <option value="1">Yes</option>
+                    <option value="0">No</option>
+                </field>
+                <field name="autoplay" type="radio" default="1" label="Autoplay" description="i)Select 'Yes' to Enable the Autoplay ii)Select 'No' to disable the Autoplay">
+                    <option value="1">Yes</option>
+                    <option value="0">No</option>
+                </field>
+                <field name="timer" type="radio" default="1" label="Timer" description="i)Select 'Yes' to Enable the Timer ii)Select 'No' to disable the Timer">
+                    <option value="1">Yes</option>
+                    <option value="0">No</option>
+                </field>
+                <field name="zoom" type="radio" default="0" label="Zoom" description="i)Select 'Yes' to Enable the Zoom ii)Select 'No' to disable the Zoom">
+                    <option value="1">Yes</option>
+                    <option value="0">No</option>
+                </field>
+                <field name="share" type="radio" default="0" label="Share Url" description="i)Select 'Yes' to Enable the Share Url ii)Select 'No' to disable the Share Url">
+                    <option value="1">Yes</option>
+                    <option value="0">No</option>
+                </field>
+                <field name="fullscreen" type="radio" default="0" label="Fullscreen" description="i)Select 'Yes' to Enable the Fullscreen ii)Select 'No' to disable the Fullscreen">
+                    <option value="1">Yes</option>
+                    <option value="0">No</option>
+                </field>
+			</fieldset>
+		</fields>
+	</config>
+</install>

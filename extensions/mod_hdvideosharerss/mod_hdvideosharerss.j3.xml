@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="1.6.0" client="site" method="upgrade">
+    <name>Video Share RSS Module</name>
+	<version>3.8</version>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<copyright>Copyright (C) 2015 Powered by Apptha</copyright>
+	<description>RSS Module for Contus HD Video Share<![CDATA[<br /><br /><div style="text-align:left !important;"><strong> How to use RSS feeds?</strong><br /><br />Mentioned below are the appropriate URLs to get RSS Feeds for:<br><br>
+			    Popular Videos - <strong>http://example.com/index.php?option=com_contushdvideoshare&view=rss&type=popular</strong><br><br>
+			    Featured Videos - <strong>http://example.com/index.php?option=com_contushdvideoshare&view=rss&type=featured</strong><br><br>
+			   	Recent Videos - <strong>http://example.com/index.php?option=com_contushdvideoshare&view=rss&type=recent</strong><br><br>
+			    Any particular category - <strong>http://example.com/index.php?option=com_contushdvideoshare&view=rss&type=category&catid=14</strong><br><br></div>]]></description>
+	<creationDate>June 2014</creationDate>
+	<author>Apptha</author>
+	<authorEmail>support@apptha.com</authorEmail>
+	<authorUrl>http://www.apptha.com</authorUrl>
+	<scriptfile>script.php</scriptfile>
+	<files >
+		<filename module='mod_hdvideosharerss'>mod_hdvideosharerss.php</filename>
+		<filename>helper.php</filename>
+		<filename>index.html</filename>
+		<filename>params.ini</filename>
+		<folder>tmpl</folder>
+		<folder>fields</folder>
+		<folder>language</folder>
+	</files>
+	<languages>
+		<language tag="en-GB">language/en-GB.mod_hdvideosharerss.ini</language>
+	</languages>
+	<params addpath="/modules/mod_hdvideosharerss/fields">
+		<param name="moduleclass_sfx" type="text" default="/modules/mod_hdvideosharerss/fields" label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX" />
+        <param name="rsstype" id="rsstype" type="rsstype" default="0" label="Select RSS Type" description="Select RSS Type from drop down list">
+        </param>
+        <param name="catid" default="" id="catid" type="hdvideoshare" multiple="false" title="Category Name" label="Category Name" description="Category Name" />
+	</params>
+	<config>
+		<fields name="params">
+			<fieldset name="basic" addfieldpath="/modules/mod_hdvideosharerss/fields">
+				<field name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX" />
+                <field id="rsstype" name="rsstype" type="rsstype" default="0" label="Select RSS Type" description="Select RSS Type from drop down list">
+                </field>
+                <field name="catid" default="" id="catid" type="hdvideoshare" multiple="false" title="Category Name" label="Category Name" description="Category Name" />
+			</fieldset>
+		</fields>
+	</config>
+</extension>

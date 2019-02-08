@@ -1,0 +1,21 @@
+/**
+ * @name       Joomla HD Video Share
+ * @SVN        3.7
+ * @package    Com_Contushdvideoshare
+ * @author     Apptha <assist@apptha.com>
+ * @copyright  Copyright (C) 2014 Powered by Apptha
+ * @license    http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
+ * @since      Joomla 1.5
+ * @Creation Date   March 2010
+ * @Modified Date   September 2015
+ * */
+
+/***
+ *  - cc: defaultCSS
+ * author: Contus Support <www.contussupport.com>
+ */
+.icon-32-featured {background-image:url(../images/featured.png); width:32px;height:32px;}
+.icon-32-unfeatured {background-image:url(../images/unfeatured.png); width:32px;height:32px;}
+.custom2-tip {color: #000;width: 130px;z-index: 13000;}
+.custom2-title {font-weight: bold;font-size: 11px;margin: 0;color: #024A68;padding: 8px 8px 4px;background: #ffffff;border-bottom: 1px solid #024A68;}
+.custom2-text {font-size: 11px;padding: 4px 8px 8px;background: #ffffff;}

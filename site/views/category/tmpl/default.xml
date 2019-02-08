@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Category">
+		<message>
+<![CDATA[HD Video Share Player Category]]>
+		</message>
+	</layout>
+	<state>
+		<name>Category</name>
+		<description>Select category</description>
+		<url addpath="/administrator/components/com_contushdvideoshare/elements">
+			<param name="catid" type="category" default="0" label="Select Category" required="true" description="Please select a category from a list" />
+		</url>
+		<params>
+		</params>
+	</state>
+	<fields name="request" addfieldpath="administrator/components/com_contushdvideoshare/elements">
+		<fieldset name="request">
+			<field 
+				name="catid" 
+				type="category" 
+				label="Select Category" 
+				description="Please select a category from a list"
+				required="true"
+			/>
+		</fieldset>
+	</fields>
+</metadata>

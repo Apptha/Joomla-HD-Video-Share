@@ -1,0 +1,97 @@
+/**
+ * @name       Joomla HD Video Share
+ * @SVN        3.7
+ * @package    Com_Contushdvideoshare
+ * @author     Apptha <assist@apptha.com>
+ * @copyright  Copyright (C) 2014 Powered by Apptha
+ * @license    http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
+ * @since      Joomla 1.5
+ * @Creation Date   March 2010
+ * @Modified Date   September 2015
+ * */
+
+* {	margin: 0; padding: 0; }
+
+#info {
+	display: block;
+	border: 1px solid #333;
+	background-color: #efefef;
+}
+
+#test-list {
+	list-style: none;
+}
+
+#test-list li {
+	display: block;
+	
+	background-color: #efefef;
+}
+
+img.handle {
+	margin-right:0px;
+	cursor: move;
+}
+.header_title
+{
+text-align: center;
+	background: #f0f0f0;
+	color: #666;
+	/* border-bottom: 1px solid #999; */
+	border-left: 1px solid #fff;
+}
+
+table.videolist {
+	width: 100%;
+	border-spacing: 1px;
+	background-color: #e7e7e7;
+	color: #666;
+}
+
+table.videolist td,
+table.videolist th { padding: 4px; }
+
+table.videolist thead th {
+	text-align: center;
+	background: #f0f0f0;
+	color: #666;
+	border-bottom: 1px solid #999;
+	border-left: 1px solid #fff;
+}
+
+table.videolist thead a:hover { text-decoration: none; }
+
+table.videolist thead th img { vertical-align: middle; }
+
+table.videolist tbody th { font-weight: bold; }
+
+table.videolist tbody tr			{ background-color: #fff;  text-align: left; }
+table.videolist tbody tr.row1 	{ background: #f9f9f9; border-top: 1px solid #fff; }
+
+table.videolist tbody tr.row0:hover td,
+table.videolist tbody tr.row1:hover td  { background-color: #ffd ; }
+
+table.videolist tbody tr td 	   { background: #fff;  }
+table.videolist tbody tr.row1 td { background: #f9f9f9; border-top: 1px solid #FFF; }
+
+table.videolist tfoot tr { text-align: center;  color: #333; }
+table.videolist tfoot td,
+table.videolist tfoot th { background-color: #f3f3f3; border-top: 1px solid #999; text-align: center; }
+
+table.videolist td.order 		{ text-align: center; white-space: nowrap; }
+table.videolist td.order span { float: left; display: block; width: 20px; text-align: center; }
+
+table.videolist .pagination { display:table; padding:0;  margin:0 auto;	 }
+
+.pagination div.limit {
+	float: left;
+	height: 22px;
+	line-height: 22px;
+	margin: 0 10px;
+}
+
+#videodiv div
+{
+ border-right:#E7E7E7 solid 1px; 
+ border-bottom:#E7E7E7 solid 1px;height:43px;;float:left;
+}
